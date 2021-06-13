@@ -1,8 +1,8 @@
 {
-  "name": "ꜱᴀɴᴋɪ ᴍᴜꜱɪᴄ ʙᴏᴛ",
+  "name": "W2H MUSIC BOT",
   "description": "ᴏᴘᴇɴ-ꜱᴏᴜʀᴄᴇ ʙᴏᴛ ᴛᴏ ᴘʟᴀʏ ꜱᴏɴɢꜱ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ'ꜱ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʏᴛɢᴄᴀʟʟꜱ.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Hexor752/SankiiMusic",
+  "repository": "https://github.com/W2HGalaxy-OP/W2H-MUSIC",
   "stack": "container",
   "env": {
     "SESSION_NAME": {

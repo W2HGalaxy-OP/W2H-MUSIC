@@ -1,4 +1,4 @@
-<h2 align="centre">🎧ꜱᴀɴᴋɪ ᴍᴜꜱɪᴄ ʙᴏᴛ 🎧</h2>
+<h2 align="centre">🎧W2H MUSIC BOT 🎧</h2>
 
 ### ᴀ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ'ꜱ ᴠᴏɪᴄᴇ ᴄᴀʟʟ
 
@@ -28,6 +28,6 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hexor752/SankiiMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/W2HGalaxy-OP/W2H-MUSIC)
 
 ᴜꜱᴇ [Repl Link](https://replit.com/@pawanjatt/evilmusicbot) ᴛᴏ ɢᴇᴛ ᴘʏʀᴏɢʀᴀᴍ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ

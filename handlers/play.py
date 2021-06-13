@@ -97,7 +97,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **ᴘʀᴏᴄᴇꜱꜱɪɴɢ** ꜱᴏᴜɴᴅꜱ...")
+    lel = await message.reply("🔄 **Processing Via ✨W2H Music✨**")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -106,7 +106,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel",
-                        url="https://t.me/SankiiPublic")
+                        url="https://t.me/W2HSupport")
                    
                 ]
             ]
@@ -123,7 +123,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/e347d024b97876a0e3dfe.png"
+        thumb_name = "https://telegra.ph/file/d97256ee2ae66c6b4858a.jpg "
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "ʟᴏᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ"
@@ -132,7 +132,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="Channel",
-                            url=f"https://t.me/SankiiPublic")
+                            url=f"https://t.me/W2HSupport")
 
                     ]
                 ]
@@ -168,7 +168,7 @@ async def play(_, message: Message):
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/e347d024b97876a0e3dfe.png"
+            thumb_name = "https://telegra.ph/file/d97256ee2ae66c6b4858a.jpg "
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -196,7 +196,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += ' ' + str(i)
         print(query)
-        await lel.edit("🎵 **ᴘʀᴏᴄᴇꜱꜱɪɴɢ** ꜱᴏᴜɴᴅꜱ...")
+        await lel.edit("🎵 **Processing Via ✨W2H Music✨**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -213,7 +213,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             lel.edit(
-                "❌ ꜱᴏɴɢ ɴᴏᴛ ꜰᴏᴜɴᴅ.\n\nᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜱᴏɴɢ ᴏʀ ᴍᴀʏʙᴇ ꜱᴘᴇʟʟ ɪᴛ ᴘʀᴏᴘᴇʀʟʏ.\nᴏᴡɴᴇʀ @Its_Hexor"
+                "❌ ꜱᴏɴɢ ɴᴏᴛ ꜰᴏᴜɴᴅ.\n\nᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜱᴏɴɢ ᴏʀ ᴍᴀʏʙᴇ ꜱᴘᴇʟʟ ɪᴛ ᴘʀᴏᴘᴇʀʟʏ.\nᴏᴡɴᴇʀ @David99q"
             )
             print(str(e))
             return
